@@ -30,14 +30,6 @@ header {
     grid-area: texto;
 }
 
-/*.lista-navegacion li {
-    list-style: none;
-    display: inline-block;
-    color: rgb(8, 8, 8);
-    margin-right: 30px;
-    font-size: 1.3rem;
-}*/
-
 .navbar{
     list-style: none;
     display: inline-block;
@@ -81,27 +73,16 @@ header {
     display: block;
     width: 200px;
     height: 200px;
-    margin: 10%;    
     border-radius: 20px;
 }
 
 /*IMAGEN PRODUCTO*/
-/*.card__imagenP{
-    width: 200px;
-    height: 200px;
-    width: 350px;
-    height: 250px;
-    left: 77px;
-    margin: 10%;    
-    border-radius: 20px;
-}*/
 .card__imagenCalabaza{
     width: 295px;
     height: 425px;
 }
 .card__imagenAcc{
-    width: 295px;
-    height: 425px;
+    width: 100%;
 }
 .card__imagenTor{
     width: 295px;
@@ -123,7 +104,6 @@ header {
 
 .cardProducto{
     background-color: #E4E6C3;
-    margin-top: 80px;
     padding: 1rem;
 }
 .card__parrafo{
@@ -216,6 +196,15 @@ h1{
 .accesoriosMateros{ grid-area: producto4;}
 .mateTapa { grid-area: producto5;}
 .mateImperial{ grid-area: producto6;}
+
+
+/*MODIFICACION SERVICIOS*/
+.empresariales{
+    width: 20%;
+    height: 200px;
+
+    
+}
 
 /*GRID INDEX*/
 .grid-inicio{
